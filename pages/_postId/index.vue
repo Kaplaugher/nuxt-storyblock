@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>main page</h1>
+    <h1>post id page</h1>
   </div>
 </template>
 
