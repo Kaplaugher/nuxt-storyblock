@@ -18,24 +18,6 @@ export default {
   components: {
     PostPreview
   },
-  // data() {
-  //   return {
-  //     posts: [
-  //       {
-  //         title: 'A new beginning',
-  //         previewText: 'This is preview text',
-  //         thumbnailUrl: 'https://source.unsplash.com/random',
-  //         id: 'new-beginning'
-  //       },
-  //       {
-  //         title: 'A sescond beginning',
-  //         previewText: 'This is preview text',
-  //         thumbnailUrl: 'https://source.unsplash.com/random',
-  //         id: 'second-beginning'
-  //       }
-  //     ]
-  //   };
-  // }
   asyncData(context) {
     return context.app.$storyapi.get('cdn/stories', {
       version: 'draft',
